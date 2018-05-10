@@ -39,6 +39,7 @@ find_package(Qt5 REQUIRED
 
 file(GLOB QT_FORMS RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} ui/*.ui)
 file(GLOB QT_RESOURCES RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} resources/*.qrc)
+file(GLOB_RECURSE QT_MOC RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} FOLLOW_SYMLINKS include/fastslam_qt_ros/*.hpp)
 
 
 QT5_ADD_RESOURCES(QT_RESOURCES_CPP ${QT_RESOURCES})
@@ -64,27 +65,22 @@ include_directories(
 )
 
 
+file(GLOB_RECURSE QT_SOURCES RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} FOLLOW_SYMLINKS src/*.cpp)
+
+##############################################################################
+# Binaries
+##############################################################################
+
+
 catkin_simple()
 
-# make the executable
-# cs_add_executable(fastslam
-#   ./src/main.cpp
-# )
-
-cs_add_executable(fastslam
-  ./src/main.cpp
-  ./src/fastslam_1.cpp
-  ./src/fastslam_2.cpp
-  ./src/ekfslam_1.cpp
-  ./src/fastslam_core.cpp
-  ./src/SLAM_Thread.cpp
-  ./src/SLAM_Plot.cpp
-  ./src/utils.cpp
-)
+add_executable(fastslam ${QT_SOURCES} ${QT_RESOURCES_CPP} ${QT_FORMS_HPP} ${QT_MOC_HPP})
 
 # link the executable to the necesarry libs
 target_link_libraries(fastslam
     ${catkin_LIBRARIES}
     ${OpenCV_LIBRARIES}
-    ${QT_LIBRARIES}
+    Qt5::Core
+    Qt5::Widgets
+    Qt5::PrintSupport
 )
