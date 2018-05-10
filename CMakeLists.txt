@@ -57,13 +57,14 @@ QT5_WRAP_CPP(QT_MOC_HPP ${QT_MOC})
 ##############################################################################
 # Sources
 ##############################################################################
-
 file(GLOB_RECURSE QT_SOURCES RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} FOLLOW_SYMLINKS src/*.cpp)
-list(REMOVE_ITEM QT_SOURCES "src/test.cpp")
+# Remove main.cpp and test.cpp from the QT_SOURCES list
+list(REMOVE_ITEM QT_SOURCES "src/test.cpp" "src/main.cpp")
 message(STATUS "QT_SOURCES: " ${QT_SOURCES})
 
 # Tell CMake to create the executable
-add_executable(${PROJECT_NAME} ${QT_SOURCES} ${QT_RESOURCES_CPP} ${QT_FORMS_HPP} ${QT_MOC_HPP})
+add_executable(${PROJECT_NAME} src/main.cpp ${QT_SOURCES} ${QT_RESOURCES_CPP} ${QT_FORMS_HPP} ${QT_MOC_HPP})
+# add_executable(${PROJECT_NAME}_test src/test.cpp ${QT_SOURCES} ${QT_RESOURCES_CPP} ${QT_FORMS_HPP} ${QT_MOC_HPP})
 
 #Link the executable to the Qt 5 widgets library.
 target_link_libraries(${PROJECT_NAME}
