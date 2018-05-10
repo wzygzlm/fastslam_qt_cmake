@@ -9,9 +9,9 @@
 
 #include <Eigen/Dense>
 
-#include "fastslam_core.h"
-#include "SLAM_Plot.h"
-#include "ekfslam_1.h"
+#include "./include/fastslam_core.h"
+#include "./include/SLAM_Plot.h"
+#include "./include/ekfslam_1.h"
 
 
 using namespace std;

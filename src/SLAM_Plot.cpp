@@ -4,9 +4,9 @@
 #include <QScreen>
 #include <QMessageBox>
 #include <QMetaEnum>
+#include <QStatusBar>
 
-
-#include "SLAM_Plot.h"
+#include "./include/SLAM_Plot.h"
 
 
 SlamPlot::SlamPlot(QWidget *parent) :

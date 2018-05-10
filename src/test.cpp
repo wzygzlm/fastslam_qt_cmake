@@ -10,8 +10,8 @@
 #include <Eigen/Dense>
 #include <unsupported/Eigen/MatrixFunctions>
 
-#include "utils.h"
-#include "fastslam_core.h"
+#include "./include/utils.h"
+#include "./include/fastslam_core.h"
 
 using namespace std;
 using namespace Eigen;

@@ -9,15 +9,15 @@
 #include <QApplication>
 
 
-#include "SLAM_Plot.h"
-#include "SLAM_Thread.h"
-#include "fastslam_core.h"
+#include "./include/SLAM_Plot.h"
+#include "./include/SLAM_Thread.h"
+#include "./include/fastslam_core.h"
 
-#include "fastslam_1.h"
-#include "fastslam_2.h"
-#include "ekfslam_1.h"
+#include "./include/fastslam_1.h"
+#include "./include/fastslam_2.h"
+#include "./include/ekfslam_1.h"
 
-#include "utils.h"
+#include "./include/utils.h"
 
 using namespace std;
 

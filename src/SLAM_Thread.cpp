@@ -5,10 +5,10 @@
 
 #include <QtGui>
 
-#include "SLAM_Thread.h"
-#include "SLAM_Plot.h"
+#include "./include/SLAM_Thread.h"
+#include "./include/SLAM_Plot.h"
 
-#include "utils.h"
+#include "./include/utils.h"
 
 // global variable
 extern SlamPlot    *g_plot;

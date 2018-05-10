@@ -23,7 +23,7 @@
 **          Version: 1.0.0-beta                                           **
 ****************************************************************************/
 
-#include "qcustomplot.h"
+#include "./include/qcustomplot.h"
 
 
 

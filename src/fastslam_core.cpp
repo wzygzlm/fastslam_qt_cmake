@@ -15,7 +15,7 @@
 #include <Eigen/Dense>
 #include <unsupported/Eigen/MatrixFunctions>
 
-#include "fastslam_core.h"
+#include "./include/fastslam_core.h"
 
 using namespace std;
 using namespace Eigen;
