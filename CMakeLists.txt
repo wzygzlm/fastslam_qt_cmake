@@ -2,7 +2,8 @@ cmake_minimum_required(VERSION 2.8.3)
 project(fastslam)
 
 # SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -O3")
-SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -fPIC -g -rdynamic -msse4")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -fPIC -g -rdynamic -msse4")
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 ##############################################################################
 # Qt Environment
@@ -71,4 +72,9 @@ target_link_libraries(${PROJECT_NAME}
     Qt5::Core
     Qt5::Widgets
     Qt5::PrintSupport
+)
+
+add_custom_command(TARGET ${PROJECT_NAME} POST_BUILD
+    COMMAND ${CMAKE_COMMAND} -E copy ${PROJECT_NAME} ../
+    COMMAND ${CMAKE_COMMAND} -E copy compile_commands.json ../
 )

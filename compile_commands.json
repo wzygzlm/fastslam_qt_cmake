@@ -1,0 +1,102 @@
+[
+{
+  "directory": "/home/minliu/allGithubs/fastslam_qt_cmake/build",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB -I/home/minliu/allGithubs/fastslam_qt_cmake/build -I/home/minliu/allGithubs/fastslam_qt_cmake -I/usr/include/eigen3 -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtPrintSupport   -std=c++11 -fPIC -g -rdynamic -msse4 -fPIC   -fPIC -o CMakeFiles/fastslam.dir/src/main.cpp.o -c /home/minliu/allGithubs/fastslam_qt_cmake/src/main.cpp",
+  "file": "/home/minliu/allGithubs/fastslam_qt_cmake/src/main.cpp"
+},
+{
+  "directory": "/home/minliu/allGithubs/fastslam_qt_cmake/build",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB -I/home/minliu/allGithubs/fastslam_qt_cmake/build -I/home/minliu/allGithubs/fastslam_qt_cmake -I/usr/include/eigen3 -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtPrintSupport   -std=c++11 -fPIC -g -rdynamic -msse4 -fPIC   -fPIC -o CMakeFiles/fastslam.dir/src/SLAM_Thread.cpp.o -c /home/minliu/allGithubs/fastslam_qt_cmake/src/SLAM_Thread.cpp",
+  "file": "/home/minliu/allGithubs/fastslam_qt_cmake/src/SLAM_Thread.cpp"
+},
+{
+  "directory": "/home/minliu/allGithubs/fastslam_qt_cmake/build",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB -I/home/minliu/allGithubs/fastslam_qt_cmake/build -I/home/minliu/allGithubs/fastslam_qt_cmake -I/usr/include/eigen3 -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtPrintSupport   -std=c++11 -fPIC -g -rdynamic -msse4 -fPIC   -fPIC -o CMakeFiles/fastslam.dir/src/SLAM_Plot.cpp.o -c /home/minliu/allGithubs/fastslam_qt_cmake/src/SLAM_Plot.cpp",
+  "file": "/home/minliu/allGithubs/fastslam_qt_cmake/src/SLAM_Plot.cpp"
+},
+{
+  "directory": "/home/minliu/allGithubs/fastslam_qt_cmake/build",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB -I/home/minliu/allGithubs/fastslam_qt_cmake/build -I/home/minliu/allGithubs/fastslam_qt_cmake -I/usr/include/eigen3 -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtPrintSupport   -std=c++11 -fPIC -g -rdynamic -msse4 -fPIC   -fPIC -o CMakeFiles/fastslam.dir/src/fastslam_core.cpp.o -c /home/minliu/allGithubs/fastslam_qt_cmake/src/fastslam_core.cpp",
+  "file": "/home/minliu/allGithubs/fastslam_qt_cmake/src/fastslam_core.cpp"
+},
+{
+  "directory": "/home/minliu/allGithubs/fastslam_qt_cmake/build",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB -I/home/minliu/allGithubs/fastslam_qt_cmake/build -I/home/minliu/allGithubs/fastslam_qt_cmake -I/usr/include/eigen3 -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtPrintSupport   -std=c++11 -fPIC -g -rdynamic -msse4 -fPIC   -fPIC -o CMakeFiles/fastslam.dir/src/fastslam_1.cpp.o -c /home/minliu/allGithubs/fastslam_qt_cmake/src/fastslam_1.cpp",
+  "file": "/home/minliu/allGithubs/fastslam_qt_cmake/src/fastslam_1.cpp"
+},
+{
+  "directory": "/home/minliu/allGithubs/fastslam_qt_cmake/build",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB -I/home/minliu/allGithubs/fastslam_qt_cmake/build -I/home/minliu/allGithubs/fastslam_qt_cmake -I/usr/include/eigen3 -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtPrintSupport   -std=c++11 -fPIC -g -rdynamic -msse4 -fPIC   -fPIC -o CMakeFiles/fastslam.dir/src/mainwindow.cpp.o -c /home/minliu/allGithubs/fastslam_qt_cmake/src/mainwindow.cpp",
+  "file": "/home/minliu/allGithubs/fastslam_qt_cmake/src/mainwindow.cpp"
+},
+{
+  "directory": "/home/minliu/allGithubs/fastslam_qt_cmake/build",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB -I/home/minliu/allGithubs/fastslam_qt_cmake/build -I/home/minliu/allGithubs/fastslam_qt_cmake -I/usr/include/eigen3 -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtPrintSupport   -std=c++11 -fPIC -g -rdynamic -msse4 -fPIC   -fPIC -o CMakeFiles/fastslam.dir/src/ekfslam_1.cpp.o -c /home/minliu/allGithubs/fastslam_qt_cmake/src/ekfslam_1.cpp",
+  "file": "/home/minliu/allGithubs/fastslam_qt_cmake/src/ekfslam_1.cpp"
+},
+{
+  "directory": "/home/minliu/allGithubs/fastslam_qt_cmake/build",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB -I/home/minliu/allGithubs/fastslam_qt_cmake/build -I/home/minliu/allGithubs/fastslam_qt_cmake -I/usr/include/eigen3 -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtPrintSupport   -std=c++11 -fPIC -g -rdynamic -msse4 -fPIC   -fPIC -o CMakeFiles/fastslam.dir/src/qcustomplot.cpp.o -c /home/minliu/allGithubs/fastslam_qt_cmake/src/qcustomplot.cpp",
+  "file": "/home/minliu/allGithubs/fastslam_qt_cmake/src/qcustomplot.cpp"
+},
+{
+  "directory": "/home/minliu/allGithubs/fastslam_qt_cmake/build",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB -I/home/minliu/allGithubs/fastslam_qt_cmake/build -I/home/minliu/allGithubs/fastslam_qt_cmake -I/usr/include/eigen3 -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtPrintSupport   -std=c++11 -fPIC -g -rdynamic -msse4 -fPIC   -fPIC -o CMakeFiles/fastslam.dir/src/utils.cpp.o -c /home/minliu/allGithubs/fastslam_qt_cmake/src/utils.cpp",
+  "file": "/home/minliu/allGithubs/fastslam_qt_cmake/src/utils.cpp"
+},
+{
+  "directory": "/home/minliu/allGithubs/fastslam_qt_cmake/build",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB -I/home/minliu/allGithubs/fastslam_qt_cmake/build -I/home/minliu/allGithubs/fastslam_qt_cmake -I/usr/include/eigen3 -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtPrintSupport   -std=c++11 -fPIC -g -rdynamic -msse4 -fPIC   -fPIC -o CMakeFiles/fastslam.dir/src/fastslam_2.cpp.o -c /home/minliu/allGithubs/fastslam_qt_cmake/src/fastslam_2.cpp",
+  "file": "/home/minliu/allGithubs/fastslam_qt_cmake/src/fastslam_2.cpp"
+},
+{
+  "directory": "/home/minliu/allGithubs/fastslam_qt_cmake/build",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB -I/home/minliu/allGithubs/fastslam_qt_cmake/build -I/home/minliu/allGithubs/fastslam_qt_cmake -I/usr/include/eigen3 -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtPrintSupport   -std=c++11 -fPIC -g -rdynamic -msse4 -fPIC   -fPIC -o CMakeFiles/fastslam.dir/include/moc_mainwindow.cpp.o -c /home/minliu/allGithubs/fastslam_qt_cmake/build/include/moc_mainwindow.cpp",
+  "file": "/home/minliu/allGithubs/fastslam_qt_cmake/build/include/moc_mainwindow.cpp"
+},
+{
+  "directory": "/home/minliu/allGithubs/fastslam_qt_cmake/build",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB -I/home/minliu/allGithubs/fastslam_qt_cmake/build -I/home/minliu/allGithubs/fastslam_qt_cmake -I/usr/include/eigen3 -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtPrintSupport   -std=c++11 -fPIC -g -rdynamic -msse4 -fPIC   -fPIC -o CMakeFiles/fastslam.dir/include/moc_fastslam_1.cpp.o -c /home/minliu/allGithubs/fastslam_qt_cmake/build/include/moc_fastslam_1.cpp",
+  "file": "/home/minliu/allGithubs/fastslam_qt_cmake/build/include/moc_fastslam_1.cpp"
+},
+{
+  "directory": "/home/minliu/allGithubs/fastslam_qt_cmake/build",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB -I/home/minliu/allGithubs/fastslam_qt_cmake/build -I/home/minliu/allGithubs/fastslam_qt_cmake -I/usr/include/eigen3 -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtPrintSupport   -std=c++11 -fPIC -g -rdynamic -msse4 -fPIC   -fPIC -o CMakeFiles/fastslam.dir/include/moc_fastslam_core.cpp.o -c /home/minliu/allGithubs/fastslam_qt_cmake/build/include/moc_fastslam_core.cpp",
+  "file": "/home/minliu/allGithubs/fastslam_qt_cmake/build/include/moc_fastslam_core.cpp"
+},
+{
+  "directory": "/home/minliu/allGithubs/fastslam_qt_cmake/build",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB -I/home/minliu/allGithubs/fastslam_qt_cmake/build -I/home/minliu/allGithubs/fastslam_qt_cmake -I/usr/include/eigen3 -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtPrintSupport   -std=c++11 -fPIC -g -rdynamic -msse4 -fPIC   -fPIC -o CMakeFiles/fastslam.dir/include/moc_qcustomplot.cpp.o -c /home/minliu/allGithubs/fastslam_qt_cmake/build/include/moc_qcustomplot.cpp",
+  "file": "/home/minliu/allGithubs/fastslam_qt_cmake/build/include/moc_qcustomplot.cpp"
+},
+{
+  "directory": "/home/minliu/allGithubs/fastslam_qt_cmake/build",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB -I/home/minliu/allGithubs/fastslam_qt_cmake/build -I/home/minliu/allGithubs/fastslam_qt_cmake -I/usr/include/eigen3 -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtPrintSupport   -std=c++11 -fPIC -g -rdynamic -msse4 -fPIC   -fPIC -o CMakeFiles/fastslam.dir/include/moc_utils.cpp.o -c /home/minliu/allGithubs/fastslam_qt_cmake/build/include/moc_utils.cpp",
+  "file": "/home/minliu/allGithubs/fastslam_qt_cmake/build/include/moc_utils.cpp"
+},
+{
+  "directory": "/home/minliu/allGithubs/fastslam_qt_cmake/build",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB -I/home/minliu/allGithubs/fastslam_qt_cmake/build -I/home/minliu/allGithubs/fastslam_qt_cmake -I/usr/include/eigen3 -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtPrintSupport   -std=c++11 -fPIC -g -rdynamic -msse4 -fPIC   -fPIC -o CMakeFiles/fastslam.dir/include/moc_ekfslam_1.cpp.o -c /home/minliu/allGithubs/fastslam_qt_cmake/build/include/moc_ekfslam_1.cpp",
+  "file": "/home/minliu/allGithubs/fastslam_qt_cmake/build/include/moc_ekfslam_1.cpp"
+},
+{
+  "directory": "/home/minliu/allGithubs/fastslam_qt_cmake/build",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB -I/home/minliu/allGithubs/fastslam_qt_cmake/build -I/home/minliu/allGithubs/fastslam_qt_cmake -I/usr/include/eigen3 -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtPrintSupport   -std=c++11 -fPIC -g -rdynamic -msse4 -fPIC   -fPIC -o CMakeFiles/fastslam.dir/include/moc_fastslam_2.cpp.o -c /home/minliu/allGithubs/fastslam_qt_cmake/build/include/moc_fastslam_2.cpp",
+  "file": "/home/minliu/allGithubs/fastslam_qt_cmake/build/include/moc_fastslam_2.cpp"
+},
+{
+  "directory": "/home/minliu/allGithubs/fastslam_qt_cmake/build",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB -I/home/minliu/allGithubs/fastslam_qt_cmake/build -I/home/minliu/allGithubs/fastslam_qt_cmake -I/usr/include/eigen3 -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtPrintSupport   -std=c++11 -fPIC -g -rdynamic -msse4 -fPIC   -fPIC -o CMakeFiles/fastslam.dir/include/moc_SLAM_Thread.cpp.o -c /home/minliu/allGithubs/fastslam_qt_cmake/build/include/moc_SLAM_Thread.cpp",
+  "file": "/home/minliu/allGithubs/fastslam_qt_cmake/build/include/moc_SLAM_Thread.cpp"
+},
+{
+  "directory": "/home/minliu/allGithubs/fastslam_qt_cmake/build",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB -I/home/minliu/allGithubs/fastslam_qt_cmake/build -I/home/minliu/allGithubs/fastslam_qt_cmake -I/usr/include/eigen3 -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtPrintSupport   -std=c++11 -fPIC -g -rdynamic -msse4 -fPIC   -fPIC -o CMakeFiles/fastslam.dir/include/moc_SLAM_Plot.cpp.o -c /home/minliu/allGithubs/fastslam_qt_cmake/build/include/moc_SLAM_Plot.cpp",
+  "file": "/home/minliu/allGithubs/fastslam_qt_cmake/build/include/moc_SLAM_Plot.cpp"
+},
+{
+  "directory": "/home/minliu/allGithubs/fastslam_qt_cmake/build",
+  "command": "/usr/bin/c++   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB -I/home/minliu/allGithubs/fastslam_qt_cmake/build -I/home/minliu/allGithubs/fastslam_qt_cmake -I/usr/include/eigen3 -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtPrintSupport   -std=c++11 -fPIC -g -rdynamic -msse4 -fPIC   -fPIC -o CMakeFiles/fastslam.dir/fastslam_automoc.cpp.o -c /home/minliu/allGithubs/fastslam_qt_cmake/build/fastslam_automoc.cpp",
+  "file": "/home/minliu/allGithubs/fastslam_qt_cmake/build/fastslam_automoc.cpp"
+}
+]
