@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 2.8.3)
 project(fastslam)
 
 # SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -O3")
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -fPIC -g -rdynamic -msse4")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -fPIC -g -O3 -rdynamic -msse4")
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 ##############################################################################
