@@ -181,7 +181,7 @@ void EKFSLAM1_Thread::sim(MatrixXf &lm, MatrixXf &wp)
 
     //Main loop
     while ( isAlive ) {
-        //printf("[%7d]\n", pos_i);
+        printf("[%7d]\n", pos_i);
 
         if( runMode == SLAM_WAYPOINT ) {
             if( iwp == -1 ) break;
