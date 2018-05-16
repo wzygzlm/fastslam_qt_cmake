@@ -40,6 +40,13 @@ include_directories(
   ${Qt5PrintSupport_INCLUDE_DIRS}
 )
 
+# Add system include directories, not neccessary for generating the target.
+# It's just for generating the compile flags so that ycm can find the
+# standard c++ headers.
+include_directories( SYSTEM  
+  /usr/include/c++/5.4.0
+)
+
 # Use the compile definitions defined in the Qt 5 Widgets module
 add_definitions(${Qt5Widgets_DEFINITIONS})
 
