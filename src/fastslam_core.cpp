@@ -580,8 +580,8 @@ void compute_jacobians(
         vector<int> &idf,
         MatrixXf &R,
         vector<VectorXf> &zp,   // measurement (range, bearing)
-        vector<MatrixXf> *Hv,   // jacobians of function h (deriv of h wrt pose)
-        vector<MatrixXf> *Hf,   // jacobians of function h (deriv of h wrt mean)
+        vector<MatrixXf> *Hv,   // jacobians of function hv (deriv of h wrt pose), hv is the function zp as xv.
+        vector<MatrixXf> *Hf,   // jacobians of function hf (deriv of h wrt mean), hf is the function zp as xf.
         vector<MatrixXf> *Sf)   // measurement covariance
 {
     VectorXf xv = particle.xv();
