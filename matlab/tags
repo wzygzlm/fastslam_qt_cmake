@@ -1,0 +1,77 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+KF_cholesky_update	KF_cholesky_update.m	/^function [x,P]= KF_cholesky_update(x,P,v,R,H)$/;"	f
+KF_joseph_update	KF_joseph_update.m	/^function [x,P]= KF_joseph_update(x,P,v,R,H)$/;"	f
+TransformToGlobal	TransformToGlobal.m	/^function p = TransformToGlobal(p, b)$/;"	f
+add_control_noise	add_control_noise.m	/^function [V,G]= add_control_noise(V,G,Q, addnoise)$/;"	f
+add_feature	add_feature.m	/^function particle= add_feature(particle, z,R)$/;"	f
+add_observation_noise	add_observation_noise.m	/^function z= add_observation_noise(z,R, addnoise)$/;"	f
+compute_jacobians	compute_jacobians.m	/^function [zp,Hv,Hf,Sf]= compute_jacobians(particle, idf, R)$/;"	f
+compute_range_bearing	get_observations.m	/^function z= compute_range_bearing(x,lm)$/;"	f
+compute_steering	compute_steering.m	/^function [G,iwp]= compute_steering(x, wp, iwp, minD, G, rateG, maxG, dt)$/;"	f
+compute_weight	fastslam1/compute_weight.m	/^function w= compute_weight(particle, z, idf, R)$/;"	f
+compute_weight	fastslam2/compute_weight.m	/^function w= compute_weight(particle, z, idf, R)$/;"	f
+compute_weight	fastslam2r/compute_weightr.m	/^function w= compute_weight(particle, z, idf, R)$/;"	f
+data_associate_known	data_associate_known.m	/^function [zf,idf,zn,table]= data_associate_known(z, idz, table, Nf)$/;"	f
+delete_checkbox_Callback	frontend.m	/^function varargout = delete_checkbox_Callback(h, eventdata, handles, varargin)$/;"	f
+delta_xv	fastslam2/sample_proposal.m	/^function dx = delta_xv(xv1, xv2)$/;"	f
+do_plot	fastslam1/fastslam1_sim.m	/^function do_plot(h, particles, xtrue, plines, veh)$/;"	f
+do_plot	fastslam2/fastslam2_sim.m	/^function do_plot(h, particles, xtrue, plines, veh)$/;"	f
+do_plot	fastslam2r/fastslam2r_sim.m	/^function do_plot(h, particles, xtrue, plines, veh)$/;"	f
+enter_checkbox_Callback	frontend.m	/^function varargout = enter_checkbox_Callback(h, eventdata, handles, varargin)$/;"	f
+fast_to_ekf_diag	fast_to_ekf_diag.m	/^function [x,P]= fast_to_ekf_diag(p)$/;"	f
+fastslam1_sim	fastslam1/fastslam1_sim.m	/^function data= fastslam1_sim(lm, wp)$/;"	f
+fastslam2_sim	fastslam2/fastslam2_sim.m	/^function data= fastslam2_sim(lm, wp)$/;"	f
+fastslam2_sim	fastslam2r/fastslam2r_sim.m	/^function data= fastslam2_sim(lm, wp)$/;"	f
+feature_update	feature_update.m	/^function particle= feature_update(particle, z, idf, R)$/;"	f
+find_nearest	frontend.m	/^function i= find_nearest(x)$/;"	f
+frontend	frontend.m	/^function varargout = frontend(varargin)$/;"	f
+gauss_evaluate	fastslam2/gauss_evaluate.m	/^function w = gauss_evaluate(v,S,logflag)$/;"	f
+get_observations	get_observations.m	/^function [z,idf]= get_observations(x, lm, idf, rmax)$/;"	f
+get_visible_landmarks	get_observations.m	/^function [lm,idf]= get_visible_landmarks(x,lm,idf,rmax)$/;"	f
+initialise_particles	fastslam1/fastslam1_sim.m	/^function p= initialise_particles(np)$/;"	f
+initialise_particles	fastslam2/fastslam2_sim.m	/^function p= initialise_particles(np)$/;"	f
+initialise_particles	fastslam2r/fastslam2r_sim.m	/^function p= initialise_particles(np)$/;"	f
+landmark_checkbox_Callback	frontend.m	/^function varargout = landmark_checkbox_Callback(h, eventdata, handles, varargin)$/;"	f
+likelihood_given_xv	fastslam2/sample_proposal.m	/^function w = likelihood_given_xv(particle, z,idf, R)$/;"	f
+line_plot_conversion	line_plot_conversion.m	/^function p= line_plot_conversion (lne)$/;"	f
+load_button_Callback	frontend.m	/^function varargout = load_button_Callback(h, eventdata, handles, varargin)$/;"	f
+make_covariance_ellipses	fastslam1/fastslam1_sim.m	/^function p= make_covariance_ellipses(particle)$/;"	f
+make_covariance_ellipses	fastslam2/fastslam2_sim.m	/^function p= make_covariance_ellipses(particle)$/;"	f
+make_covariance_ellipses	fastslam2r/fastslam2r_sim.m	/^function p= make_covariance_ellipses(particle)$/;"	f
+make_ellipse	fastslam1/fastslam1_sim.m	/^function p= make_ellipse(x,P,circ)$/;"	f
+make_ellipse	fastslam2/fastslam2_sim.m	/^function p= make_ellipse(x,P,circ)$/;"	f
+make_ellipse	fastslam2r/fastslam2r_sim.m	/^function p= make_ellipse(x,P,circ)$/;"	f
+make_laser_lines	fastslam1/fastslam1_sim.m	/^function p= make_laser_lines (rb,xv)$/;"	f
+make_laser_lines	fastslam2/fastslam2_sim.m	/^function p= make_laser_lines (rb,xv)$/;"	f
+make_laser_lines	fastslam2r/fastslam2r_sim.m	/^function p= make_laser_lines (rb,xv)$/;"	f
+make_symmetric	KF_joseph_update.m	/^function P= make_symmetric(P)$/;"	f
+move_checkbox_Callback	frontend.m	/^function varargout = move_checkbox_Callback(h, eventdata, handles, varargin)$/;"	f
+multivariate_gauss	multivariate_gauss.m	/^function s= multivariate_gauss(x,P,n)$/;"	f
+observe_heading	fastslam2/observe_heading.m	/^function particle= observe_heading(particle, phi, useheading)$/;"	f
+observe_heading	fastslam2r/observe_heading.m	/^function particle= observe_heading(particle, phi, useheading)$/;"	f
+perform_task	frontend.m	/^function x= perform_task(x, h, handles)$/;"	f
+pi_to_pi	fastslam2/predict.m	/^function x= pi_to_pi(x)$/;"	f
+pi_to_pi	fastslam2r/predict.m	/^function x= pi_to_pi(x)$/;"	f
+pi_to_pi	pi_to_pi.m	/^function angle = pi_to_pi(angle)$/;"	f
+plotlandmarks	frontend.m	/^function plotlandmarks(x)$/;"	f
+plotwaypoints	frontend.m	/^function plotwaypoints(x)$/;"	f
+predict	fastslam1/predict.m	/^function particle= predict(particle, V,G,Q, WB,dt, addrandom)$/;"	f
+predict	fastslam2/predict.m	/^function particle= predict(particle, V,G,Q, WB,dt, addrandom)$/;"	f
+predict	fastslam2r/predict.m	/^function particle= predict(particle, V,G,Q, WB,dt, addrandom)$/;"	f
+predict_true	predict_true.m	/^function xv= predict_true(xv, V,G, WB,dt)$/;"	f
+resample_particles	resample_particles.m	/^function particles= resample_particles(particles, Nmin, doresample)$/;"	f
+sample_proposal	fastslam2/sample_proposal.m	/^function particle= sample_proposal(particle, z,idf, R)$/;"	f
+sample_proposal	fastslam2r/sample_proposal.m	/^function particle= sample_proposal(particle, z,idf, R, sampleproposal)$/;"	f
+save_button_Callback	frontend.m	/^function varargout = save_button_Callback(h, eventdata, handles, varargin)$/;"	f
+setup_animations	fastslam1/fastslam1_sim.m	/^function h= setup_animations(lm,wp)$/;"	f
+setup_animations	fastslam2/fastslam2_sim.m	/^function h= setup_animations(lm,wp)$/;"	f
+setup_animations	fastslam2r/fastslam2r_sim.m	/^function h= setup_animations(lm,wp)$/;"	f
+sqrtm_2by2	sqrtm_2by2.m	/^function X = sqrtm_2by2(A)$/;"	f
+stratified_random	stratified_random.m	/^function s = stratified_random(N)$/;"	f
+stratified_resample	stratified_resample.m	/^function [keep, Neff] = stratified_resample(w)$/;"	f
+waypoint_checkbox_Callback	frontend.m	/^function varargout = waypoint_checkbox_Callback(h, eventdata, handles, varargin)$/;"	f
